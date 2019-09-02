@@ -96,32 +96,41 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: #f2f3ee;
   height: 100%;
   width: 100%;
   
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Gayathri', sans-serif;
   padding: 0 2em;
   font-size: 1.25em;
   height: 100%;
-  color: #fff;
+  color: #cb9b42;
   
+  
+}
+
+header {
+    font-size: 3em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .25em;
+    padding:20px 0px 20px 0px;
 }
 
 header,
 footer {
-  background-color: #222;
+  
   height: 80px;
   width: 100%;
  
 }
 
 main {
-  background-color: #ccc;
-  height: 250px;
+  color: #606470;
+  height: 100px;
   width: 100%;
 }
 
@@ -129,7 +138,7 @@ header,
 footer,
 main {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items:center;
 }
 
@@ -139,10 +148,18 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #2c5d63;
   line-height: 1.5em;
-  font-size: 1.25em;
-  height: auto;
+  font-size: 1em;
+  height: 350px;
+  padding: 15px;
+}
+
+#div-2{
+    border-width: 0px 3px 0px 3px;
+    border-style: solid;
+    border-color: #2c5d63;
+    
 }
 
 .wrapper span {
@@ -161,12 +178,13 @@ main {
     display: flex;
     justify-content: center;
     align-items:center;
-  color: #fff;
+  color: #2c5d63;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+ 
   width: 30%;
   height: 200px;
+
 }
 
 /* ==========================================================================
